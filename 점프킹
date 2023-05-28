@@ -1,0 +1,245 @@
+using UnityEngine;
+
+public class JumpKing : MonoBehaviour
+{
+    
+{
+   
+
+{
+public float jumpForce = 5f; // 기본 점프 힘
+    
+   
+public float maxJumpTime = 1f; // 최대 점프 시간
+
+    
+
+   
+
+
+private Rigidbody2D rb;
+    
+   
+private bool isJumping = false;
+    
+   
+private float jumpTime = 0f;
+
+    
+
+   
+
+
+private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+   
+
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+
+    {
+        rb = GetComponent<Rigidbody2D>();
+
+    {
+       
+
+    {
+private void Update()
+    {
+        // 스페이스 바를 누르면 점프 시작
+        
+       
+if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartJump();
+        }
+
+        
+        {
+            StartJump();
+        }
+
+       
+
+        {
+            StartJump();
+        }
+
+
+        {
+           
+
+        {
+
+       
+// 스페이스 바를 누르고 있는 동안 점프 시간 측정
+        
+       
+if (Input.GetKey(KeyCode.Space))
+        {
+            ContinueJump();
+        }
+
+        
+        {
+            ContinueJump();
+        }
+
+       
+
+        {
+            ContinueJump();
+        }
+
+
+        {
+           
+
+        {
+// 스페이스 바를 떼면 점프 종료
+        
+       
+if (Input.GetKeyUp(KeyCode.Space))
+        {
+            EndJump();
+        }
+    }
+
+    
+        {
+            EndJump();
+        }
+    }
+
+   
+
+        {
+            EndJump();
+        }
+    }
+
+
+        {
+            EndJump();
+        }
+   
+
+        {
+            EndJump();
+        }
+
+        {
+            EndJump();
+       
+
+        {
+           
+
+        {
+private void StartJump()
+    {
+        isJumping = 
+    {
+       
+
+    {
+true;
+        jumpTime = 
+        jumpTime
+
+       
+0f;
+        rb.velocity = 
+        rb.velocity =
+
+        rb.velocity
+
+       
+new Vector2(rb.velocity.x, jumpForce);
+    }
+
+    
+    }
+
+private void ContinueJump()
+    {
+        
+    {
+       
+if (!isJumping)
+            
+           
+return;
+
+        
+
+if (jumpTime < maxJumpTime)
+        {
+            jumpTime += Time.deltaTime;
+            rb.velocity = 
+        {
+            jumpTime += Time.deltaTime;
+            rb.velocity =
+
+        {
+            jumpTime += Time.deltaTime;
+            rb
+
+        {
+            jumpTime += Time.deltaTime;
+           
+
+        {
+            jumpTime += Time.deltaTime;
+
+        {
+            jumpTime += Time
+
+        {
+            jumpTime
+
+        {
+            jump
+
+        {
+new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+
+    
+        }
+    }
+
+   
+
+        }
+    }
+
+
+        }
+   
+
+       
+private void EndJump()
+    {
+        isJumping = 
+    {
+        isJumping
+
+    {
+        
+    {
+       
+false;
+    }
+}
