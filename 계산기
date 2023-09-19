@@ -1,0 +1,53 @@
+package ffe;
+
+import java.util.Scanner;
+
+public class fwafaw {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("num1?");
+		
+		float num1 = sc.nextInt();
+		System.out.println("num2?");
+		
+		float num2 = sc.nextInt();
+		System.out.println("num2?");
+		
+		float result;
+		
+		System.out.println("+(1) -(2) *(3) /(4)");
+		int op = sc.nextInt();
+		
+		calc(num1,num2,op);
+	}
+	
+	
+	static void calc(float num1, float num2, int op) {
+		
+		float result;
+		
+		switch (op) {
+		case 1:
+			result= num1 + num2;
+			System.out.printf("%.2f + %.2f = %.2f" , num1, num2, result);
+			break;
+		case 2:
+			result= num1 - num2;
+			System.out.printf("%.2f - %.2f = %.2f" , num1, num2, result);
+			break;
+		case 3:
+			result= num1 * num2;
+			System.out.printf("%.2f * %.2f = %.2f" , num1, num2, result);
+			break;
+		case 4:
+			result= num1 / num2;
+			System.out.printf("%.2f / %.2f = %.2f" , num1, num2, result);
+			break;
+		default :
+			System.out.println("ㅇㅇ 꺼져 ㅋ");
+		
+		}
+	}
+	
+}
