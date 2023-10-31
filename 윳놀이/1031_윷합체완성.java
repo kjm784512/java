@@ -72,24 +72,24 @@ public class YootMap1031 {
         System.out.printf("%2s%2s%2s  %2s%2s%2s  %2s%2s%2s  %2s%2s%2s  %2s%2s%2s  %2s%2s%2s \n",
                         p1[10],m[10],p2[10], p1[9],m[9],p2[9], p1[8],m[8],p2[8],
                         p1[7],m[7],p2[7], p1[6],m[6],p2[6], p1[5],m[5],p2[5]);
-        System.out.println();System.out.println();
+        System.out.println();
         System.out.printf("%2s%2s%2s                                   %2s%2s%2s \n",
                         p1[11],m[11],p2[11],             p1[4],m[4],p2[4]);
-        System.out.println();System.out.println();
+        System.out.println();
         System.out.printf("%2s%2s%2s                                   %2s%2s%2s \n",
                         p1[12],m[12],p2[12],             p1[3],m[3],p2[3]);
-        System.out.println();System.out.println();
+        System.out.println();
         System.out.printf("%2s%2s%2s                                   %2s%2s%2s \n",
                         p1[13],m[13],p2[13],             p1[2],m[2],p2[2]);
-        System.out.println();System.out.println();
+        System.out.println();
         System.out.printf("%2s%2s%2s                                   %2s%2s%2s \n",
                         p1[14],m[14],p2[14],             p1[1],m[1],p2[1]);
-        System.out.println();System.out.println();
+        System.out.println();
         System.out.printf("%2s%2s%2s  %2s%2s%2s  %2s%2s%2s  %2s%2s%2s  %2s%2s%2s  %2s%2s%2s \n",
                 p1[15],m[15],p2[15], p1[16],m[16],p2[16], p1[17],m[17],p2[17],
                 p1[18],m[18],p2[18], p1[19],m[19],p2[19], p1[0],m[0],p2[0]);
         System.out.println("======================================================================");    
-        System.out.println();System.out.println();        
+        System.out.println();      
     }
 
     private static int 윷던지기() {
