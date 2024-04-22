@@ -36,10 +36,11 @@ public class S21210_Atm {
 					a.bankAcount += money;
 				}
 			}
-			
-			
-			
+			System.out.println("A잔액:"+a.acount+" 총금액:"+a.bankAcount);
+			System.out.println("A잔액:"+b.acount+" 총금액:"+b.bankAcount);
+			System.out.println("총금액: "+ S21210_Atm.bankAcount);
 			
 		} while(true); 
+		System.out.println("이용해 주셔서 감사요");
 	}
 }
