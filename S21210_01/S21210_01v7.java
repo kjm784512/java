@@ -11,19 +11,19 @@ public class S21210_01v7 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("1문장을 입력하세요");
-		intVal = scanner.nextInt();
+		strVal = scanner.nextLine();
 		
 		System.out.println("2문장을 입력하세요");
-		douVal = scanner.nextDouble();
+		intVal = scanner.nextInt();
 		
 		
 		System.out.println("3문장을 입력하세요");
-		strVal = scanner.nextLine();
+		douVal = scanner.nextDouble();
 		
 		
-		System.out.println("1입력한 문장은 "+ intVal + " 입니다");
-		System.out.println("2입력한 문장은 "+ douVal + " 입니다");
-		System.out.println("3입력한 문장은 "+ strVal + " 입니다");
+		System.out.println("1입력한 문장은 "+ strVal + " 입니다");
+		System.out.println("2입력한 문장은 "+ intVal + " 입니다");
+		System.out.println("3입력한 문장은 "+ douVal + " 입니다");
 		
 	}
 }
