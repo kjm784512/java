@@ -2,7 +2,7 @@ package s21210_java30;
 
 public class Car {
 
-	String company = "현대자동차";
+	String company = "우리나라 자동차";
 	String model;
 	String color;
 	int maxSpeed;
